@@ -1,6 +1,5 @@
 <html>
   <head>
-    <title>Delhi Technical Campus</title>
   </head>
   <body>
     <h1>College-Website</h1>
