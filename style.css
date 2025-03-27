@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 68px;
+    background-color: #3E4095;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-phone{
+    font-size: 0.8rem;
+}
+.nav-email{
+    font-size: 0.8rem;
+    width: 40%;
+}
+.navbar-ops{
+    padding: 10px;
+}
+.navbar-ops a{
+    background-color: #ea6903;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.nav-panel1{
+    height: 120px;
+    width: 100%;
+    background-color: #efae4d;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    background-image: url('CollImages/dtclogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.NBA-logo{
+    background-image: url('CollImages/NBA-logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;   
+}
+.TOI-ranking{
+    background-image: url('CollImages/TOI-Ranking-2020.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px; 
+}
+.heading{
+    width: 60%;
+}
+
+.nav-panel2{
+    background-color: #3E4095;
+    height: 62px;
+    color: white;
+}
+.panel2-content{
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+.Home{
+    background-color: #ea6903;
+    padding: 20px;
+}
+
+.main-page{
+    height: 450px;
+}
+.welcome{
+    background-image: url('CollImages/dtc.jpeg');
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h2{
+    background-color: white;
+    color: red;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.content{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: aliceblue;
+    padding: 20px 0px 15px;
+}
+.box{
+    height: 350px;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+.box h2{
+    text-align: center;
+}
+.box-img{
+    margin-left: 150px;
+}
+.box iframe{
+    margin-left: 50px;
+}
+
+.location{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+}
+.Aboutus{
+    background-color: white;
+    height: 300px;
+    padding-right: 25px;
+}  
+ul h3{
+    border-bottom: 1.5px solid black;
+    padding-bottom: 15px;
+}
+ul p{
+    padding-top: 15px;
+}
+
+.director{
+    height: 480px;
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+.director h2{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.director-content{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.director-img{
+    background-image: url('CollImages/Director.jpg');
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+.director-intro{
+    height: 300px;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ea6903;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+
+.foot-panel1{
+    background-color: #20232e;
+    height: 400px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.About-DTC{
+    font-size: 23px;
+    color: white;
+}
+.About-DTC p{
+    border-bottom: 1.5px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.logo1{
+    background-image: url('CollImages/dtclogo.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+.links{
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.imp-links{
+    color: white;
+    font-size: 23px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin: 15px;
+    color: #959595;
+    text-decoration: none;
+}
+.foot-heading{
+    border-bottom: 1.5px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+.foot-panel2{
+    background-color: #3E4095;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright a{
+    color: #45a2ff;
+}
