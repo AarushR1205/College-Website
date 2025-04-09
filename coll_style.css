@@ -30,8 +30,7 @@
 }
 
 .nav-panel1{
-    height: 120px;
-    width: 100%;
+    height: 120px;;
     background-color: #efae4d;
     display: flex;
     align-items: center;
